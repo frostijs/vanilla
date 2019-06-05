@@ -1,0 +1,4 @@
+rules:
+  leading-zero: 0
+  no-url-domains: 0
+  no-url-protocols: 0

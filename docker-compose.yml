@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  web:
+    command: npm run start:docker
+    build:
+      context: ./
+    ports:
+      - 3000
+    environment:
+      - NODE_ENV=production
+      - PORT=3000

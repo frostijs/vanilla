@@ -1,0 +1,23 @@
+:root {
+  --color-background: #ccc;
+  --color-font: rgba(0, 0, 0, 0.8);
+}
+
+.menu-primary {
+  background: var(--color-background);
+  left: 0;
+  padding: 20px;
+  position: fixed;
+  right: 0;
+  top: 0;
+
+  .menu-item {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  a {
+    color: var(--color-font);
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300i,400,700, 700i|Sansita:400,700');
+
+:root {
+  --font-color: #333;
+  --page-color: #f3f4ee;
+  --font-sansita: 'Sansita', sans-serif;
+  --font-open-sans: 'Open Sans', sans-serif;
+}
+
+* {
+  font-family: var(--font-open-sans);
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: var(--page-color);
+  color: var(--font-color);
+  font-family: var(--font-open-sans);
+  font-size: 16px;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+h1,
+h2 {
+  font-family: var(--font-sansita);
+  font-size: 38px;
+  font-weight: 100;
+}
+
+.container {
+  padding: 20px;
+
+  .with-menu {
+    margin-top: 62px;
+  }
+}
+
+.content {
+  margin-top: 60px;
+}
